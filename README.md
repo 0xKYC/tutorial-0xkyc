@@ -27,7 +27,7 @@ $ npm install
 ```
 
 ## Update Configurations
-- Update {YOUR_PROVIDER_URL} to your provider url in example.ts:
+- Update **{YOUR_PROVIDER_URL}** to your provider url in example.ts:
 
 ``` typescript
 const web3 = new Web3('{YOUR_PROVIDER_URL}');
@@ -38,9 +38,15 @@ const web3 = new Web3('{YOUR_PROVIDER_URL}');
 2. Open a free account
 3. Sign in and [go to dashboard](https://dashboard.alchemy.com/)
 4. Create a new Sepolia app
-5. Copy your HTTPS url and update {YOUR_PROVIDER_URL} to yours.
+   
+    <img width="1202" alt="Screenshot 2023-07-18 at 16 48 50" src="https://github.com/0xKYC/tutorial-0xkyc/assets/14136835/f801d779-f7cb-436b-9385-cb3e8ac85399">
+   
+6. Copy your **HTTPS url** and update **{YOUR_PROVIDER_URL}**.
+   
+    <img width="689" alt="Screenshot 2023-07-18 at 16 51 00" src="https://github.com/0xKYC/tutorial-0xkyc/assets/14136835/f56bdec2-c453-4e1c-b10b-9f841c6fcd3a">
 
 ## Compile and Run
+
 
 Compile the TypeScript file:
 
@@ -57,7 +63,7 @@ $ node example.js
 ## Output
 The output will look like below:
 
-``` shell output
+``` txt
 # testHasSoulScenario0
 Error:  Web3 validator found 1 error[s]:
 value "invalid_format" at "/0" must pass "address" validation
@@ -102,3 +108,5 @@ walletAddress1: 0xb52e0c56e0A8Afc9B28c8e0a8396af3261a5e191, uuid1: afb701e7-36d9
 walletAddress2: 0xc461F7c743a428DE1F20627fbD9243bB0983C94B, uuid2: 5324d1da-c44a-47e5-857e-72db6529b440
 It means two wallet addresses are owned by the different person.
 ```
+
+Thank you for completing this tutorial from start to finish. 😁
