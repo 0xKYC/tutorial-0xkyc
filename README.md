@@ -11,48 +11,51 @@ This document walks you through the process of using the 0xKYC system.
 - Package Manager: npm (you can easily convert it to other package managers like yarn)
 
 ## Installation
-Clone the tutorial repository to your local machine:
+1. Clone the tutorial repository to your local machine:
 
 ``` bash
 $ git clone git@github.com:0xKYC/tutorial-0xkyc.git
 $ cd tutorial-0xkyc
 ```
 
-Install the necessary packages:
+2. Install the necessary packages:
 
 ``` bash
 $ npm install
 ```
 
 ## Update Configurations
-- Update **{YOUR_PROVIDER_URL}** to your provider url in example.ts:
+3. Update **{YOUR_PROVIDER_URL}** to your provider url in example.ts:
 
 ``` typescript
 const web3 = new Web3('{YOUR_PROVIDER_URL}');
 ```
 
-### How to get provider url?
+<details>
+<summary>How to get provider url?</summary>
+
 1. Go to [alchemy website](https://www.alchemy.com/)
 2. Open a free account
 3. Sign in and [go to dashboard](https://dashboard.alchemy.com/)
 4. Create a new Sepolia app
    
-    <img width="1202" alt="Screenshot 2023-07-18 at 16 48 50" src="https://github.com/0xKYC/tutorial-0xkyc/assets/14136835/f801d779-f7cb-436b-9385-cb3e8ac85399">
+  <img width="1202" alt="Screenshot 2023-07-18 at 16 48 50" src="https://github.com/0xKYC/tutorial-0xkyc/assets/14136835/f801d779-f7cb-436b-9385-cb3e8ac85399">
    
 6. Copy your **HTTPS url** and update **{YOUR_PROVIDER_URL}**.
    
-    <img width="689" alt="Screenshot 2023-07-18 at 16 51 00" src="https://github.com/0xKYC/tutorial-0xkyc/assets/14136835/f56bdec2-c453-4e1c-b10b-9f841c6fcd3a">
+  <img width="689" alt="Screenshot 2023-07-18 at 16 51 00" src="https://github.com/0xKYC/tutorial-0xkyc/assets/14136835/f56bdec2-c453-4e1c-b10b-9f841c6fcd3a">
+
+</details>
 
 ## Compile and Run
 
-
-Compile the TypeScript file:
+4. Compile the TypeScript file:
 
 ``` bash
 $ tsc example.ts
 ```
 
-Execute the compiled JavaScript file:
+5. Execute the compiled JavaScript file:
 
 ``` bash
 $ node example.js
