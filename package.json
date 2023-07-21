@@ -1,0 +1,16 @@
+{
+  "name": "tutorial-0xkyc",
+  "version": "1.0.0",
+  "description": "This project walks you through the process of using the 0xKYC system.",
+  "main": "",
+  "keywords": [],
+  "author": "0xkyc",
+  "devDependencies": {
+    "@types/web3": "^1.2.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "web3": "^4.0.3"
+  }
+}
