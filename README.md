@@ -1,7 +1,5 @@
-# 0xKYC Tutorial
+# 0xKYC Tutorial(< 5 minutes)
 This document walks you through the process of using the 0xKYC system.
-
-It takes less than 5 minutes and free.
 
 ---
 
