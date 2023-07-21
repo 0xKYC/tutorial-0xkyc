@@ -41,7 +41,7 @@ const web3 = new Web3('{YOUR_PROVIDER_URL}');
    
   <img width="1202" alt="Screenshot 2023-07-18 at 16 48 50" src="https://github.com/0xKYC/tutorial-0xkyc/assets/14136835/f801d779-f7cb-436b-9385-cb3e8ac85399">
    
-6. Copy your **HTTPS url** and update **{YOUR_PROVIDER_URL}**.
+5. Copy your **HTTPS url** and update **{YOUR_PROVIDER_URL}**.
    
   <img width="689" alt="Screenshot 2023-07-18 at 16 51 00" src="https://github.com/0xKYC/tutorial-0xkyc/assets/14136835/f56bdec2-c453-4e1c-b10b-9f841c6fcd3a">
 
