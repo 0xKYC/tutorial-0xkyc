@@ -1,6 +1,9 @@
 import Web3 from "web3";
 import { ContractAbi } from "web3-types";
 
+// YOU MUST PROVIDE YOUR OWN PROVIDER URL
+const web3 = new Web3('{YOUR_PROVIDER_URL}');
+
 const abi: ContractAbi = [
   {
     inputs: [
@@ -222,9 +225,6 @@ const abi: ContractAbi = [
     type: 'function',
   },
 ];
-
-// YOU MUST PROVIDE YOUR OWN PROVIDER URL
-const web3 = new Web3('{YOUR_PROVIDER_URL}');
 
 // The same contract used in the `sandbox` environment.
 // https://sandbox.0xkyc.id
