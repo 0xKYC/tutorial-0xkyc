@@ -1,10 +1,10 @@
 # 0xKYC Tutorial (< 5 minutes)
 
+This document walks you through the process of using the 0xKYC system.
+
 > 🚦 **Heads up!**  
 > The 0xKYC system might not be working right now, but we’re reviving and open-sourcing it soon.  
 > Use this guide as a reference and check back for updates!
-
-This document walks you through the process of using the 0xKYC system.
 
 ---
 
