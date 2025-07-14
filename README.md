@@ -3,8 +3,7 @@
 This document walks you through the process of using the 0xKYC system.
 
 > 🚦 **Heads up!**  
-> The 0xKYC system might not be working right now, but we’re reviving and open-sourcing it soon.  
-> Use this guide as a reference and check back for updates!
+> The 0xKYC system is already open source, but some features might not work right now as we continue to upgrade the platform and biometrics flow.
 
 ---
 
